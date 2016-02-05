@@ -11,9 +11,9 @@ dependencies:
         - sed -i 's/^;//' ~/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini
 
         ## Customize test commands
-test:
+        ##test:
         ## override:
-        ## - phpunit -c phpunit.xml.dist
+        # - phpunit -c phpunit.xml.dist
 
         ## Customize deployment
 deployment:
