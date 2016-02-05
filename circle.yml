@@ -12,8 +12,8 @@ dependencies:
 
         ## Customize test commands
 test:
-        override:
-        - phpunit -c phpunit.xml.dist
+        ## override:
+        ## - phpunit -c phpunit.xml.dist
 
         ## Customize deployment
 deployment:
